@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Example Page</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script><script>$(document).ready(function(){$.getJSON('https://api.digitalmedia.hhs.gov/api/v2/resources/media/18069/syndicate.json?stripStyles=true&stripScripts=false&stripBreaks=false&stripImages=false&stripClasses=true&stripIds=true&displayMethod=undefined&autoplay=false&userId=3395&callback=?', function(data){$('#syndicatedContent_18069_2319925588116117').html(data.results[0].content);});});</script><div id="syndicatedContent_18069_2319925588116117"></div>
+
+</body>
+</html>

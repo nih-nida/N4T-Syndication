@@ -1,0 +1,52 @@
+div[id^="syndicatedContent"] {
+  background: #fff;
+  border: 1px solid #666;
+  padding: 1em;
+  margin: 1em;
+  /***** Syndicated Content Information Footer *****/ }
+  div[id^="syndicatedContent"] h2 {
+    line-height: 1.5rem;
+    margin: 1em 0; }
+  div[id^="syndicatedContent"] ul {
+    line-height: 1.5rem;
+    margin-bottom: 1em; }
+    div[id^="syndicatedContent"] ul li {
+      line-height: 1.5rem; }
+  div[id^="syndicatedContent"] table {
+    background: #ffffff;
+    margin: 1em auto;
+    padding: 0;
+    width: 100%;
+    max-width: 800px; }
+    div[id^="syndicatedContent"] table caption {
+      font-size: 110%;
+      font-weight: bold;
+      padding: 1em 0;
+      text-align: center; }
+    div[id^="syndicatedContent"] table thead tr {
+      background: #CD3A12;
+      color: #ffffff;
+      font-weight: bold;
+      padding: 1em .5em;
+      text-align: center; }
+    div[id^="syndicatedContent"] table thead th {
+      padding: 1em .5em; }
+      div[id^="syndicatedContent"] table thead th p {
+        margin: 0;
+        padding: 0; }
+        div[id^="syndicatedContent"] table thead th p strong {
+          color: #ffffff; }
+    div[id^="syndicatedContent"] table tbody tr {
+      border-bottom: 1px solid #cacaca; }
+      div[id^="syndicatedContent"] table tbody tr:last-of-type {
+        border: 0; }
+    div[id^="syndicatedContent"] table tbody th, div[id^="syndicatedContent"] table tbody td {
+      padding: 1em .5em; }
+  div[id^="syndicatedContent"] .syndicate:last-of-type {
+    border-top: 2px solid #cacaca;
+    font-size: 90%;
+    line-height: 1.2rem;
+    margin-top: 1em;
+    padding: 1em 0; }
+
+/*# sourceMappingURL=styles.css.map */
