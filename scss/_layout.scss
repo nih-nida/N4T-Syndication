@@ -1,11 +1,13 @@
 div[id^="syndicatedContent"] {
-  background: #fff;
-  border: 1px solid #666;
+  background: $white;
+  border: 1px solid $grey-light;
+  color: $grey-dark;
   padding: 1em;
   margin: 1em;
 
 
   h2 {
+    color: $grey-dark;
     line-height: 1.5rem;
     margin: 1em 0;
   }
@@ -15,19 +17,22 @@ div[id^="syndicatedContent"] {
     margin-bottom: 1em;
 
     li {
+      color: $grey-dark;
       line-height: 1.5rem;
     }
   }
 
   table {
     background: $white;
+    color: $grey-dark;
     margin: 1em auto;
     padding: 0;
     width: 100%;
-    max-width: 800px;
+    max-width: 850px;
 
 
     caption {
+      color: $grey-dark;
       font-size: 110%;
       font-weight: bold;
       padding: 1em 0;
@@ -71,10 +76,35 @@ div[id^="syndicatedContent"] {
     }
   }
 
+  a {
+    color:  $orange;;
+  }
+
+
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+
+  sup {
+    top: -0.5em;
+  }
+
+  sub {
+    bottom: -0.25em;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
   /***** Syndicated Content Information Footer *****/
 
   .syndicate:last-of-type {
     border-top: 2px solid $grey-light;
+    color: $grey-dark;
     font-size: 90%;
     line-height: 1.2rem;
     margin-top: 1em;
