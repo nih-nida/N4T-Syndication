@@ -1,11 +1,25 @@
 div[id^="syndicatedContent"] {
-  background: $white;
-  border: 1px solid $grey-light;
-  color: $grey-dark;
-  padding: 1em;
-  margin: 1em;
-
-
+  background: #ffffff;
+      /* border: 1px solid #cacaca; */
+      /* color: #333333; */
+      /* padding: 1em; */
+      /* margin: 1em; */
+  .imgRight {
+    float: right;
+    width: 288px;
+    background: #f2f2f2;
+    border: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    padding: .5em;
+    margin: 0 0 2em 2em;
+    img {
+      height: auto;
+    width: 100%;
+    }
+    span {
+      font-size: 90%;
+    }
+  }
   h2 {
     color: $grey-dark;
     line-height: 1.5rem;

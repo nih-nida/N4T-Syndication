@@ -1,10 +1,24 @@
 div[id^="syndicatedContent"] {
   background: #ffffff;
-  border: 1px solid #cacaca;
-  color: #333333;
-  padding: 1em;
-  margin: 1em;
+  /* border: 1px solid #cacaca; */
+  /* color: #333333; */
+  /* padding: 1em; */
+  /* margin: 1em; */
   /***** Syndicated Content Information Footer *****/ }
+  div[id^="syndicatedContent"] .imgRight {
+    float: right;
+    width: 288px;
+    background: #f2f2f2;
+    border: 1px solid #e1e1e1;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: .5em;
+    margin: 0 0 2em 2em; }
+    div[id^="syndicatedContent"] .imgRight img {
+      height: auto;
+      width: 100%; }
+    div[id^="syndicatedContent"] .imgRight span {
+      font-size: 90%; }
   div[id^="syndicatedContent"] h2 {
     color: #333333;
     line-height: 1.5rem;
