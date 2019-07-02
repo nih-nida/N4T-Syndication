@@ -1,5 +1,5 @@
 div[id^="syndicatedContent"] {
-  background: #ffffff;
+  // background: #ffffff;
       /* border: 1px solid #cacaca; */
       /* color: #333333; */
       /* padding: 1em; */
@@ -39,10 +39,10 @@ div[id^="syndicatedContent"] {
   table {
     background: $white;
     color: $grey-dark;
-    margin: 1em auto;
+    margin: 1rem auto;
     padding: 0;
     width: 100%;
-    max-width: 850px;
+    max-width: 900px;
 
 
     caption {
@@ -56,14 +56,15 @@ div[id^="syndicatedContent"] {
     thead {
       tr {
         background: $orange;
-        background:$grey-light;
+        background:#DDD;
         color: $white;
+        color:#333;
         font-weight: bold;
-        padding: 1em .5em;
+        padding: 0;
         text-align: center;
       }
       th {
-        padding: 1em .5em;
+        padding: 1rem;
 
         p {
           margin: 0;
@@ -86,7 +87,7 @@ div[id^="syndicatedContent"] {
       }
 
       th, td {
-        padding: 1em .5em;
+        padding: 1rem;
       }
     }
   }
