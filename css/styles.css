@@ -30,6 +30,7 @@ div[id^="syndicatedContent"] {
       text-align: center; }
     div[id^="syndicatedContent"] table thead tr {
       background: #CD3A12;
+      background: #cacaca;
       color: #ffffff;
       font-weight: bold;
       padding: 1em .5em;
@@ -47,8 +48,6 @@ div[id^="syndicatedContent"] {
         border: 0; }
     div[id^="syndicatedContent"] table tbody th, div[id^="syndicatedContent"] table tbody td {
       padding: 1em .5em; }
-  div[id^="syndicatedContent"] a {
-    color: #CD3A12; }
   div[id^="syndicatedContent"] sub, div[id^="syndicatedContent"] sup {
     font-size: 75%;
     line-height: 0;
@@ -67,5 +66,3 @@ div[id^="syndicatedContent"] {
     line-height: 1.2rem;
     margin-top: 1em;
     padding: 1em 0; }
-
-/*# sourceMappingURL=styles.css.map */
