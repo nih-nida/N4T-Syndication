@@ -1,0 +1,129 @@
+div[id^="syndicatedContent"] {
+  // background: #ffffff;
+      /* border: 1px solid #cacaca; */
+      /* color: #333333; */
+      /* padding: 1em; */
+      /* margin: 1em; */
+  .imgRight {
+    float: right;
+    width: 288px;
+    background: #f2f2f2;
+    border: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    padding: .5em;
+    margin: 0 0 2em 2em;
+    img {
+      height: auto;
+    width: 100%;
+    }
+    span {
+      font-size: 90%;
+    }
+  }
+  h2 {
+    color: $grey-dark;
+    line-height: 1.5rem;
+    margin: 1em 0;
+  }
+
+  ul {
+    line-height: 1.5rem;
+    margin-bottom: 1em;
+
+    li {
+      color: $grey-dark;
+      line-height: 1.5rem;
+    }
+  }
+
+  table {
+    background: $white;
+    color: $grey-dark;
+    margin: 1rem auto;
+    padding: 0;
+    width: 100%;
+    max-width: 900px;
+
+
+    caption {
+      color: $grey-dark;
+      font-size: 110%;
+      font-weight: bold;
+      padding: 1em 0;
+      text-align: center;
+    }
+
+    thead {
+      tr {
+        background: $orange;
+        background:#DDD;
+        color: $white;
+        color:#333;
+        font-weight: bold;
+        padding: 0;
+        text-align: center;
+      }
+      th {
+        padding: 1rem;
+
+        p {
+          margin: 0;
+          padding: 0;
+
+          strong {
+            color: $white;
+          }
+        }
+      }
+    }
+
+    tbody {
+      tr {
+        border-bottom: 1px solid $grey-light;
+
+        &:last-of-type {
+          border: 0;
+        }
+      }
+
+      th, td {
+        padding: 1rem;
+      }
+    }
+  }
+
+  a {
+    // color:  $orange;
+  }
+
+
+  sub, sup {
+    font-size: 75%;
+    line-height: 0;
+    position: relative;
+    vertical-align: baseline;
+  }
+
+  sup {
+    top: -0.5em;
+  }
+
+  sub {
+    bottom: -0.25em;
+  }
+
+  img {
+    margin: 0 auto;
+  }
+
+  /***** Syndicated Content Information Footer *****/
+
+  .syndicate:last-of-type {
+    border-top: 2px solid $grey-light;
+    color: $grey-dark;
+    font-size: 90%;
+    line-height: 1.2rem;
+    margin-top: 1em;
+    padding: 1em 0;
+  }
+}
